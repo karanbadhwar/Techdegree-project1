@@ -31,6 +31,13 @@ a:hover {
   position: fixed;
   text-align: center;
 }
+.experience-nav{
+  width: 100%;
+  background: black;
+  min-height: 30px;
+  padding: 10px;
+  text-align: center;
+}
 .nav {
   display: flex;
   justify-content: space-around;
@@ -57,7 +64,7 @@ a:hover {
 
 header {
   text-align: center;
-  background: url('images/portland.jpg') no-repeat top center ;
+  background: url('images/relaxing.jpg') no-repeat center ;
   background-size: cover;
   overflow: hidden;
   padding-top: 60px;
@@ -95,7 +102,8 @@ header .profile-image:hover {
   text-align: left;
   background: #fff;
   border-bottom: 4px solid #ccc;
-  border-radius: 6px;
+  border-left:  4px solid #ccc;
+  border-radius: 60px;
   transition: all .5s;
 }
 .card:hover {
@@ -108,7 +116,7 @@ ul.skills {
 }
 
 .skills li {
-  border-radius: 6px;
+  border-radius: 60px;
   display: inline-block;
   background: #ff9904;
   color: white;
@@ -119,6 +127,17 @@ ul.skills {
 .skills li:nth-child(odd) {
   background: #0399ff;
 }
+
+.experience{
+  border-radius: 6px;
+  padding: 5px 10px;
+  margin: 2px;
+  letter-spacing: 1px;  
+}
+.experience li{
+  border-radius: 20px;
+}
+
 
 footer {
   width: 100%;
