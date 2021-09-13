@@ -137,7 +137,24 @@ ul.skills {
 .experience li{
   border-radius: 20px;
 }
-
+.pro-skills{
+  letter-spacing: 2px;
+  line-height: 40px;
+  font-size: 16px;
+}
+.pro-skills ul {
+  list-style-type: circle;
+}
+#education{
+  letter-spacing: 1px;;
+}
+#education article{
+  margin-top: 20%;
+}
+.address{
+ margin-top: 20px;
+ margin-bottom: 20px;
+}
 
 footer {
   width: 100%;
@@ -158,6 +175,12 @@ footer ul {
 
 footer ul li {
   display: inline-block;
+}
+address{
+  text-align: left;
+}
+address a{
+  color:green;
 }
 
 a.social {
