@@ -189,6 +189,12 @@ address a{
   margin-top: 40px;
  margin-bottom: 40px;
 }
+.contact{
+
+  background-image: url("images/pexels-brady-knoll-3369569.jpg");
+  background-position: center;
+}
+
 hr {
   border: 0;
   height: 1px;
